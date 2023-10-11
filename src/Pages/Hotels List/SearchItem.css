@@ -1,0 +1,122 @@
+.SearchItemCont {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.search-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: #0071c2;
+}
+.search-img:hover {
+}
+
+.SearchDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+
+.searchtitle {
+  font-size: 20px;
+  color: #0071c2;
+}
+.SearchDistancetext {
+  font-size: 13px;
+}
+
+.SearchOptions {
+  font-size: 13px;
+  color: rgb(247, 242, 242);
+  background-color: green;
+  width: max-content;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.SearchSubtitle {
+  font-size: 13px;
+  font-weight: bold;
+}
+.SearchSubFeatures {
+  font-size: 12px;
+  color: grey;
+}
+
+.SearchCancelOptions {
+  font-size: 13px;
+}
+.SearchCancelOptions {
+  font-size: 13px;
+  color: green;
+  font-weight: bold;
+}
+
+.SrcCnclOptSubtitle {
+  font-size: 13px;
+  color: green;
+}
+
+/* Search Detail Starts */
+
+.SearchDetails {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.SRating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SRating > span {
+  font-weight: bold;
+}
+
+.SRating > button {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.SiDetailsText {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  gap: 5px;
+}
+
+.Siprice {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.SiTax {
+  font-size: 12px;
+  color: grey;
+}
+
+.Sibtn {
+  padding: 10px 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}

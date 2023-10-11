@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #003580;
+  color: white;
+  position: relative;
+}
+
+.headerContainer {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 0px;
+}
+
+/* This is for hetel details page */
+
+.headerContainer.listmode {
+  margin: 20px 0px 0px 0px;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.h-list-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.h-list-items.active {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.headerDesc {
+  margin: 20px 0px;
+}
+
+.header-btn {
+  background-color: #0071c2;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 5px;
+}

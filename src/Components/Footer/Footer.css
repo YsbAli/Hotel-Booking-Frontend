@@ -1,0 +1,72 @@
+.footerMain {
+  width: 100%;
+  max-width: 1024px;
+  font-size: 15px;
+}
+
+.footer-Wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.footer-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  margin-bottom: 10px;
+  color: rgb(0, 0, 82);
+}
+
+.footer-ul > li:hover {
+  transform: scale(1.1);
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: rgb(0, 0, 82);
+}
+
+.list-item.links {
+  font-size: 26px;
+}
+
+.icon {
+  border-radius: 40px;
+  padding: 2px;
+  color: rgb(17, 17, 86);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.text {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+}
+.icon:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.name {
+  color: rgb(0, 15, 153);
+  font-size: 20px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.name:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}

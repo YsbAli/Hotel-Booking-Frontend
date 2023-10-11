@@ -1,0 +1,38 @@
+.propertyList {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.propertylist-items {
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.property-images {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-left: 30px;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.2);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.property-images:hover {
+	margin-left: 0;
+}
+
+.propertly-List-titles > h1 {
+  font-size: 18px;
+}
+
+.propertly-List-titles > h2 {
+  font-size: 14px;
+  font-weight: 300;
+}

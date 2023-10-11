@@ -1,0 +1,97 @@
+.ListContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ListWrapper {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.listSearch {
+  background-color: #febb02;
+  flex: 1;
+  border-radius: 10px;
+  padding: 10px;
+  top: 10px;
+  position: sticky;
+  height: max-content;
+}
+
+.Search-title {
+  font-size: 25px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.SearchItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.SearchItem > label {
+  font-size: 18px;
+  color: grey;
+}
+
+.SearchItem > input {
+  height: 30px;
+  border: none;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.SearchItem > span {
+  height: 30px;
+  padding: 5px;
+  font-size: 1rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.listSearchItems {
+  flex: 3;
+}
+
+.SearchListItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: grey;
+  font-size: 12px;
+}
+
+.Details {
+  /* margin: auto; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+.searchIteminput {
+  width: 60px;
+  height: 20px;
+}
+
+.Search-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: #0071c2;
+  cursor: pointer;
+  border: none;
+}

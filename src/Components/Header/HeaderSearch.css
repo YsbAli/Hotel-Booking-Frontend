@@ -1,0 +1,96 @@
+.headerSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 25px;
+  background-color: #ffffff;
+  border: 1px solid #febb02;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.headerIcon {
+  color: lightgray;
+}
+
+.Header-btn {
+  background-color: #0071c2;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.HeaderSearch-Items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.HeaderSearch-input {
+  border: none;
+  outline: none;
+}
+
+.Header-search-text {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.date {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
+
+/* Options Starts here */
+
+.options {
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  -webkit-scroll-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
+.options-items {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.option-counter-btn {
+  background-color: white;
+  border: 1px solid #0071c2;
+  color: #0071c2;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.option-counter-number {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.option-counter-btn:disabled {
+  cursor: not-allowed;
+}
