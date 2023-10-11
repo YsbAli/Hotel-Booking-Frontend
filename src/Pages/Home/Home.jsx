@@ -1,4 +1,4 @@
-import GuestHouse from "../../Components/GuestHouse/guestHouse";
+// import GuestHouse from "../../Components/GuestHouse/guestHouse";
 import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
 import PropertyList from "../../Components/PropertyList/PropertyList";
